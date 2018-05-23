@@ -98,7 +98,8 @@ public class DialogCustom extends DialogFragment implements View.OnClickListener
         if(getTxt_btn_neg() != null){
             btn_neg.setText(getTxt_btn_neg());
         }else {
-            btn_neg.setText("CANCELAR");
+            //btn_neg.setText("CANCELAR");
+            btn_neg.setVisibility(View.GONE);
         }
 
         if(getTxt_btn_pos() != null){
